@@ -29,7 +29,7 @@
   <gap:splash src="loadingscreen.png" />
 	
   <access origin="*" />
-  <access origin="http://10.0.0.41" browserOnly="true" />
+  <access origin="http://10.0.0.41/" browserOnly="true" />
 
 
 </widget>
