@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "nl.gsdapp.web-support.nl.Afvalwijzer"
-    versionCode="12"
+    versionCode="11"
     version   = "3.0.0">
 
   <author>GSD-Automatisering S. van de Laarschot</author>
@@ -14,7 +14,7 @@
   </description>
 
 		<preference name="stay-in-webview" value="true" />
-        <preference name="phonegap-version" value="2.3.0" />
+        <preference name="phonegap-version" value="2.5.0" />
         <preference name="prerendered-icon" value="true" />
         <preference name="target-device" value="universal" />
         <preference name="webviewbounce" value="false" />
