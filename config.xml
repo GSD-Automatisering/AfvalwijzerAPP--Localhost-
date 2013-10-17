@@ -42,6 +42,9 @@
 		<preference name="android-minSdkVersion" value="7" />
 		<preference name="android-installLocation" value="auto" />
 		
+		<plugin name="File" value="org.apache.cordova.FileUtils" />
+		<plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+		
   <icon src="icon.png"/>
   <icon src="icon.png" hover="true"/>
   <gap:splash src="loadingscreen.png" />
