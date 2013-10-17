@@ -41,10 +41,12 @@
 		<preference name="android-minSdkVersion" value="7" />
 		<preference name="android-installLocation" value="auto" />
 
+		
+		<gap:plugin name="org.apache.cordova.core.file" version="0.2.1" />
+		
   <icon src="icon.png"/>
   <icon src="icon.png" hover="true"/>
   <gap:splash src="loadingscreen.png" />
-  <gap:plugin name="org.apache.cordova.core.file" />
   <access origin="*" />
   <access origin="http://10.0.0.41/" browserOnly="true" />
 
