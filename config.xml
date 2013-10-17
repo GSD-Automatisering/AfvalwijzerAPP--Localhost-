@@ -37,14 +37,15 @@
 		<preference name="detect-data-types" value="true" />
 		<preference name="show-splash-screen-spinner" value="true" />
 		<preference name="auto-hide-splash-screen" value="true" />
-		<preference name="disable-cursor" value="false" />
+		<preference name="disable-cursor" value="true" />
 		<preference name="android-minSdkVersion" value="7" />
 		<preference name="android-installLocation" value="auto" />
-		
+
   <icon src="icon.png"/>
   <icon src="icon.png" hover="true"/>
   <gap:splash src="loadingscreen.png" />
-	
+  <gap:plugin name="org.apache.cordova.FileUtils" version="~2.2.3" />
+  <gap:plugin name="org.apache.cordova.FileTransfer" version="~2.2.3" />	
   <access origin="*" />
   <access origin="http://10.0.0.41/" browserOnly="true" />
 
