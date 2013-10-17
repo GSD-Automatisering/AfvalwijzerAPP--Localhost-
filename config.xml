@@ -38,11 +38,9 @@
 		<preference name="show-splash-screen-spinner" value="true" />
 		<preference name="auto-hide-splash-screen" value="true" />
 		<preference name="disable-cursor" value="true" />
-		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-minSdkVersion" value="11" />
 		<preference name="android-installLocation" value="auto" />
 
-		
-		<gap:plugin name="org.apache.cordova.core.file" version="0.2.1" />
 		
   <icon src="icon.png"/>
   <icon src="icon.png" hover="true"/>
