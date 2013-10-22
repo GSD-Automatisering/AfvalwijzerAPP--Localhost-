@@ -18,6 +18,13 @@
 		<feature name="http://api.phonegap.com/1.0/network"/>
 		<feature name="http://api.phonegap.com/1.0/notification"/>
 				
+		<feature name="File">
+			<param name="android-package" value="org.apache.cordova.FileUtils" />
+		</feature>
+		<feature name="FileTransfer">
+			<param name="android-package" value="org.apache.cordova.FileTransfer" />
+		</feature>
+						
 		<preference name="useBrowserHistory" value="true" />
 		<preference name="android-windowSoftInputMode" value="adjustResize" />
 		<preference name="stay-in-webview" value="true" />
