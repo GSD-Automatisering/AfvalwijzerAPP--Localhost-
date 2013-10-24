@@ -24,7 +24,17 @@
 		<feature name="FileTransfer">
 			<param name="android-package" value="org.apache.cordova.FileTransfer" />
 		</feature>
-						
+		
+		<!--IOS Version of Calendar-->
+		<feature name="Calendar">
+			<param name="ios-package" value="Calendar" />
+		</feature>
+		
+		<!--Android Version of Calendar-->
+		<feature name="Calendar">
+			<param name="android-package" value="nl.xservices.plugins.Calendar" />
+		</feature>
+		
 		<preference name="useBrowserHistory" value="true" />
 		<preference name="android-windowSoftInputMode" value="adjustResize" />
 		<preference name="stay-in-webview" value="true" />
