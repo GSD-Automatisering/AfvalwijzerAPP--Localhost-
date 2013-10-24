@@ -25,6 +25,12 @@
 			<param name="android-package" value="org.apache.cordova.FileTransfer" />
 		</feature>
 				
+				
+		<gap:platform name="ios"/>
+		<gap:platform name="android"/>
+		
+		<gap:plugin name="nl.x-services.plugins.calendar" />
+						
 		<preference name="useBrowserHistory" value="true" />
 		<preference name="android-windowSoftInputMode" value="adjustResize" />
 		<preference name="stay-in-webview" value="true" />
@@ -46,7 +52,6 @@
 	    <icon src="icon.png"/>
 	    <icon src="icon.png" hover="true"/>
 	    <gap:splash src="loadingscreen.png" />
-	    <gap:plugin name="nl.x-services.plugins.calendar" />
 	    <access origin="*" />
 	    <access origin="http://10.0.0.41/" browserOnly="true" />
 
