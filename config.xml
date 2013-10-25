@@ -52,8 +52,6 @@
 	    <icon src="icon.png"/>
 	    <icon src="icon.png" hover="true"/>
 	    <gap:splash src="loadingscreen.png" />
-	    <access origin="*" />
-	    <access origin="http://10.0.0.41/" browserOnly="true" />
-
+	    <access origin="*" browserOnly="true" />
 
 </widget>
